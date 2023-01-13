@@ -7,12 +7,14 @@
 </head>
 
 <body>
-<form action="/action_page.php" method="post">
+<!-- <form action="/action_page.php" method="post"> -->
 	<!-- the entire body must be written by student -->
+	<form>
+		<h1>Car Insurance Form</h1>
 	<label for="name"> Name:</label><br>
-	<input type="text" id="#name" required><br>
+	<input type="text" id="name" required><br>
 		<label for="email"> Email:</label><br>
-	<input type="text" id="#email" required><br>
+	<input type="text" id="email" required><br>
     <label for="pwd">Password:</label><br>
     <input type="password" id="password" name="pwd" required><br>
 	<label for="gender"> Gender</label><br>
@@ -21,15 +23,16 @@
 	<input type="radio" name="gender" value="female" required>
     <label class="female">Female</label><br>
 	<label for="cars" >Car Brands:</label><br>
-  <select id="#cars" >
+  <select id="cars" >
   <option value="bmw">BMW</option>
   <option value="audi">Audi</option>
   <option value="Mercedez">Mercedez</option>
- </select><br>
+   <br>
+	 </select>
 	<label for="car age"> Car Age:</label><br>
-	<input type="number" id="#carage" required><br>
+	<input type="number" id="carage" required><br>
 	<label for="dop"> Date of Purchase:</label><br>
-	<input type="date" id="#dop" required><br>
+	<input type="date" id="dop" required><br>
 	    <input type="checkbox">
     <input type="submit" value="Submit">
 </form>
